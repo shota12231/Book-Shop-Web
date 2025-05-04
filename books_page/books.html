@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Books | BOOKSHOP</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="../images/Logo.png" alt="logo">
+        </nav>
+        <div class="navbar-items">
+            <li>
+                <a href="../index.html">Home</a>
+                <a href="../product_page/product.html">Products</a>
+                <a href="../books_page/books.html">Books</a>
+                <a href="#">Contact Us</a>
+            </li>
+        </div>
+        <div class="icons-div">
+            <i class="fa fa-search"></i>
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-user"></i>
+            <i id="burger-menu" class="fa fa-bars"></i>
+        </div>
+    </header>
+    <section id="section1big">
+        <section id="side_section1">
+            <h1 class="hh1">Avaliability</h1>
+            <div class="radiobtns">
+                <input type="radio" value="In Stock">In Stock
+                <input type="radio" value="Out Of Stock">Out Of Stock
+            </div>
+            <div class="prices">
+                <h1 class="hh1">Prices</h1>
+                <div class="minidiv">
+                    <input type="number" min="0" max="18" placeholder="Min:" class="price-div"></input>
+                    <input type="number" min="0" max="18" placeholder="Max:" class="price-div"></input>
+                    <button type="reset">Filter</button>
+                </div>
+            </div>
+
+            <div class="author">
+                <h1 class="hh1">Author</h1>
+                <label for="charles">Charles Dickens</label>
+                <input type="checkbox" id="charles" name="charles">
+
+                <label for="Edgar Allan Poe">Edgar Allan Poe</label>
+                <input type="checkbox" id="Edgar Allan Poe" name="Edgar Allan Poe">
+
+                <label for="Stephen King">Stephen King</label>
+                <input type="checkbox" id="Stephen King" name="Stephen King">
+
+                <label for="Fyodor Dostoevsky">Fyodor Dostoevsky</label>
+                <input type="checkbox" id="Fyodor Dostoevsky" name="Fyodor Dostoevsky">
+
+                <label for="J. K. Rowling">J. K. Rowling</label>
+                <input type="checkbox" id="J. K. Rowling" name="J. K. Rowling">
+
+                <label for="Agatha Christie">Agatha Christie</label>
+                <input type="checkbox" id="Agatha Christie" name="Agatha Christie">
+
+                <label for="george Orwell">george Orwell</label>
+                <input type="checkbox" id="george Orwell" name="george Orwell">
+
+            </div>
+
+            <div class="genre">
+                <h1 class="hh1">Genre</h1>
+                <label for="Fantasy">Fantasy</label>
+                <input type="checkbox" id="Fantasy" name="Fantasy">
+
+                <label for="Science Fiction">Science Fiction</label>
+                <input type="checkbox" id="Science Fiction" name="Science Fiction">
+
+                <label for="Mystery">Mystery</label>
+                <input type="checkbox" id="Mystery" name="Mystery">
+
+                <label for="Romance">Romance</label>
+                <input type="checkbox" id="Romance" name="Romance">
+
+                <label for="Historical Fiction">Historical Fiction</label>
+                <input type="checkbox" id="Historical Fiction" name="Historical Fiction">
+
+                <label for="Classic">Classic</label>
+                <input type="checkbox" id="Classic" name="Classic">
+
+
+            </div>
+
+            <div class="age">
+                <h1 class="hh1">Age</h1>
+                <label for="0-3 Year Old">0-3 Year Old</label>
+                <input type="radio" id="0-3 Year Old" name="0-3 Year Old">
+
+                <label for="4-7 Year Old">4-7 Year Old</label>
+                <input type="radio" id="4-7 Year Old" name="4-7 Year Old">
+
+                <label for="8-12 Year Old">8-12 Year Old</label>
+                <input type="radio" id="8-12 Year Old" name="8-12 Year Old">
+
+                <label for="10-12 Year Old">10-12 Year Old</label>
+                <input type="radio" id="10-12 Year Old" name="10-12 Year Old">
+
+                <label for="13-16 Year Old">13-16 Year Old</label>
+                <input type="radio" id="13-16 Year Old" name="13-16 Year Old">
+
+                <label for="16-17 Year Old">16-17 Year Old</label>
+                <input type="radio" id="16-17 Year Old" name="16-17 Year Old">
+
+                <label for="18+">18+</label>
+                <input type="radio" id="18+" name="18+">
+
+            </div>
+
+            <div class="Language">
+                <h1 class="hh1">Language</h1>
+                <label for="English">English</label>
+                <input type="radio" id="English" name="English">
+
+                <label for="4-7 Year Old">4-7 Year Old</label>
+                <input type="radio" id="4-7 Year Old" name="4-7 Year Old">
+
+                <label for="8-12 Year Old">8-12 Year Old</label>
+                <input type="radio" id="8-12 Year Old" name="8-12 Year Old">
+
+                <label for="10-12 Year Old">10-12 Year Old</label>
+                <input type="radio" id="10-12 Year Old" name="10-12 Year Old">
+
+                <label for="13-16 Year Old">13-16 Year Old</label>
+                <input type="radio" id="13-16 Year Old" name="13-16 Year Old">
+
+                <label for="16-17 Year Old">16-17 Year Old</label>
+                <input type="radio" id="16-17 Year Old" name="16-17 Year Old">
+
+                <label for="18+">18+</label>
+                <input type="radio" id="18+" name="18+">
+
+
+            </div>
+        </section>
+
+        <section id="side_section2">
+            <div class="card">
+                <img src="../images/card1.png" alt="book image">
+                <p>The Lightning Thief</p>
+                <h3>$8.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card2.png" alt="book image">
+                <p>Atomic habbits</p>
+                <h3>$26.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card3.png" alt="book image">
+                <p>The Fault In Our Stars</p>
+                <h3>$14.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card4.png" alt="book image">
+                <p>The Metamorphosis</p>
+                <h3>$8.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card5.png" alt="book image">
+                <p>Happy Place</p>
+                <h3>$18.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card6.png" alt="book image">
+                <p>To Kill a Mockingbird</p>
+                <h3>$19.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card7.png" alt="book image">
+                <p>Crime And Punishment</p>
+                <h3>$29.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card8.png" alt="book image">
+                <p>The Dark Tower</p>
+                <h3>$17.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card9.png" alt="book image">
+                <p>Sapiens: A Brief History of Humankind</p>
+                <h3>$20.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card10.png" alt="book image">
+                <p>Shadow And Bone</p>
+                <h3>$12.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card11.png" alt="book image">
+                <p>The Seven Husbands of Evelyn Hugo</p>
+                <h3>$16.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card12.png" alt="book image">
+                <p>The Perks of Being a Wallflower</p>
+                <h3>$15.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card13.png" alt="book image">
+                <p>The Alchemist</p>
+                <h3>$17.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card14.png" alt="book image">
+                <p>The Book Thief</p>
+                <h3>$14.99</h3>
+            </div>
+            <div class="card">
+                <img src="../images/card15.png" alt="book image">
+                <p>Catching Fire</p>
+                <h3>$12.99</h3>
+            </div>
+            
+        </section>
+    </section>
+
+</body>
+</html>
